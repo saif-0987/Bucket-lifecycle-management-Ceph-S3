@@ -1,0 +1,17 @@
+{
+  "Rules": [
+    {
+      "Expiration": {
+        "Days": 10
+      },
+      "ID": "Delete objects that are older than 10 days",
+      "Filter": {
+        "Tag": {
+          "Key": "designation",
+          "Value": "confidential"
+        }
+      },
+      "Status": "Enabled"
+    }
+  ]
+}
