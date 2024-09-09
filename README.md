@@ -2,7 +2,9 @@
 Bucket Lifecycle Management in Ceph S3 ( RGW )
 
 You can use a bucket lifecycle configuration to manage your objects so they are stored effectively throughout their lifetime. The S3 API in the Ceph Object Gateway supports a subset of the AWS bucket lifecycle actions.
-We will perform below steps to fulfil this 
+
+To achieve this, follow the steps below:
+
 - object tagging
 - Implement bucket lifecycle managemnet
 
